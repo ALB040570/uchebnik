@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Учебник по веб-разработке</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Учебник по HTML, CSS и JavaScript</h1>
+    <p>Сделано с мамой и сыном ❤️</p>
+  </header>
+
+  <section>
+    <h2>🔶 Что такое HTML?</h2>
+    <p>HTML (язык разметки) — отвечает за структуру сайта.</p>
+    <ul>
+      <li><code>&lt;h1&gt;</code> — заголовок</li>
+      <li><code>&lt;p&gt;</code> — параграф</li>
+      <li><code>&lt;a&gt;</code> — ссылка</li>
+      <li><code>&lt;img&gt;</code> — изображение</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🔷 Что такое CSS?</h2>
+    <p>CSS — это стиль. Он делает сайт красивым: цвета, шрифты, отступы.</p>
+    <pre><code>h1 {
+  color: red;
+}</code></pre>
+  </section>
+
+  <section>
+    <h2>🟡 Что такое JavaScript?</h2>
+    <p>JavaScript — язык, который делает сайт живым и интерактивным.</p>
+    <button onclick="sayHello()">Нажми меня</button>
+    <p id="output"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Учебник от мамы и Арыстангали</p>
+  </footer>
+
+  <script>
+    function sayHello() {
+      document.getElementById("output").innerText = "Привет! Вы только что использовали JavaScript 🎉";
+    }
+  </script>
+</body>
+</html>
